@@ -1,5 +1,5 @@
 import streamlit as st
-import info.dialog_boxes as info
+import shared.info.dialog_boxes as info
 
 def title():
 
