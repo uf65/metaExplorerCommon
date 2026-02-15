@@ -9,7 +9,7 @@ def title():
     col_logo, col_title, col_help, col_about, col_license = st.columns([1, 5, 1, 1, 1])
 
     with col_logo:
-        st.image("assets/mex_t.jpeg", use_container_width=True)
+        st.image("shared/assets/mex_t.jpeg", use_container_width=True)
 
     with col_title:
         st.caption("")
