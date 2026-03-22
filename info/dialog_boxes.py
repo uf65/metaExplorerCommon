@@ -1,6 +1,6 @@
 import streamlit as st
 
-VERSION = "1.9 Beta"
+VERSION = "1.10 Beta"
 CONTACT_EMAIL = "[metia.explorer@gmx.net](mailto:metia.explorer@gmx.net)"
 
 
