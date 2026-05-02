@@ -99,7 +99,7 @@ def show_help_dialog():
         st.rerun()
         
 
-@st.dialog("⚖️ Lizenzen & Haftung")
+@st.dialog("⚖️ Lizenzen & Haftung", width="medium")
 def show_license_dialog():
     # --- Haftungsausschluss & Beta-Hinweis ---
     st.warning("⚠️ **Wichtiger Hinweis (Beta-Stadium)**")
