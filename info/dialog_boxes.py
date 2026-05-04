@@ -33,7 +33,7 @@ def show_about_dialog():
      
     st.divider()
     st.markdown(f"""
-    **Version {VERSION}** | Stand: April 2026
+    **Version {VERSION}** | Stand: Mai 2026
     """)
     if st.button("OK", use_container_width=True):
         st.rerun()
