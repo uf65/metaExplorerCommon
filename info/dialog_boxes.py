@@ -4,7 +4,7 @@ import subprocess
 from dotenv import load_dotenv
 import streamlit as st
 
-VERSION = "1.14 Beta"
+VERSION = "1.15 Beta"
 CONTACT_EMAIL = "[metia.explorer@gmx.net](mailto:metia.explorer@gmx.net)"
 
 
@@ -37,7 +37,7 @@ def show_about_dialog():
      
     st.divider()
     st.markdown(f"""
-    **Version {VERSION}** | Stand: Juni 2026
+    **Version {VERSION}** | Stand: Juli 2026
     """)
     if st.button("OK", use_container_width=True):
         st.rerun()
