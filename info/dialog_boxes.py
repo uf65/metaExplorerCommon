@@ -4,7 +4,7 @@ import subprocess
 from dotenv import load_dotenv
 import streamlit as st
 
-VERSION = "1.16 Beta"
+VERSION = "1.17 Beta"
 CONTACT_EMAIL = "[metia.explorer@gmx.net](mailto:metia.explorer@gmx.net)"
 
 
